@@ -1,5 +1,3 @@
-/*$bg: #43a822;*/
-
 @font-face {
 	font-family: inconsolata;
 	src: url("/fonts/inconsolata.otf");
@@ -75,7 +73,7 @@ a {
   font-weight: normal;
 }
 
-a:hover {
+a:hover, .proj h1:hover {
   color: #260033;
   font-weight: bold;
 }
@@ -142,28 +140,27 @@ a:hover {
   float: left;
 }
 
-
-/*
-.maxwidth {
-  width: 99%;
-}
-
-.col49 {
-  width: 49%;
-  display: block;
-  float: left;
-}
-
-.tleft {
+.proj {
   text-align: left;
+  margin: 5px;
 }
 
-.tcenter {
-  text-align: center;
+a .proj {
+  color: #180021;
+  text-decoration: none;
+  font-weight: normal;
 }
 
-#notice {
-  border: 1px solid red;
-  width: 100%;
+.proj h1 {
+  text-align: right;
+  margin-right: 15px;
 }
-*/
+
+.proj h1:hover {
+  margin-right: 20px;
+}
+
+.proj p img {
+  float: left;
+  padding: 5px;
+}
