@@ -114,6 +114,35 @@ a:hover {
   text-align: center;
   padding: 5px;
 }
+
+#linksroll ul {
+  list-style: none;
+}
+
+#linksroll li a {
+  text-decoration: dashed;
+  color: #225411;
+}
+
+#linksroll li a:hover {
+  text-decoration: underline;
+  color: #115422;
+}
+
+#social-icons {
+  width: 400px;
+  float: left;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  padding: 16px;
+  display: inline;
+  float: left;
+}
+
+
 /*
 .maxwidth {
   width: 99%;
