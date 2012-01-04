@@ -145,7 +145,7 @@ a:hover, .proj h1:hover {
   margin: 5px;
 }
 
-a .proj {
+.proj a {
   color: #180021;
   text-decoration: none;
   font-weight: normal;
