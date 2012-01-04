@@ -170,11 +170,8 @@ em {
   font-weight: bold;
 }
 
-.proj .click_here {
+.proj p:after {
+  content: "Kliknij tutaj aby dowiedzieć się więcej";
   font-size: 10pt;
   text-align: right;
-}
-
-.proj p:after {
-  content: "<span class='click_here'>Kliknij tutaj aby dowiedzieć się więcej</span>";
 }
