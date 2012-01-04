@@ -174,5 +174,6 @@ em {
   content: "Kliknij tutaj aby dowiedzieć się więcej";
   font-size: 11pt;
   font-weight: bold;
-  text-align: right;
+  float: right;
+  margin-top: 10px;
 }
