@@ -165,3 +165,16 @@ a .proj {
   float: left;
   padding: 5px;
 }
+
+em {
+  font-weight: bold;
+}
+
+.proj .click_here {
+  font-size: 10pt;
+  text-align: right;
+}
+
+.proj p:after {
+  content: "<span class='click_here'>Kliknij tutaj aby dowiedzieć się więcej</span>";
+}
