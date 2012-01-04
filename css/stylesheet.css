@@ -1,0 +1,161 @@
+/*$bg: #43a822;*/
+
+@font-face {
+	font-family: inconsolata;
+	src: url("/fonts/inconsolata.otf");
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/Comfortaa-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Comfortaa-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Comfortaa-Regular.ttf');
+}
+
+a img {
+  border: none;
+}
+
+body {
+  background-color: #43a822;
+  margin: 0;
+  padding: 0;
+  color: #180021;
+}
+
+#wrapper {
+  margin: 10px auto 0px auto;
+  width: 904px;
+  display: block;
+}
+
+#logo {
+  background: url("/images/swistak-logo.png") no-repeat right;
+  height: 486px;
+  width: 280px;
+}
+
+#info {
+  width: 624px;
+  font-family: inconsolata, serif, sans-serif;
+  text-align: center;
+  display: block;
+}
+
+#name {
+  font-size: 60pt;
+  display: block;
+}
+
+#left {
+  float:left;
+  width: 280px;
+  display: block;
+}
+
+#right {
+  float: right;
+  width: 624px;
+  display: block;
+}
+
+#menu {
+  padding-bottom: 10px;
+}
+
+.menu {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li a:before { content: '['; }
+.menu li a:after { content: ']'; }
+
+a {
+  color: #3D0052;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+a:hover {
+  color: #260033;
+  font-weight: bold;
+}
+
+#footer {
+  font-size: 10pt;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  clear: both;
+  display: block;
+}
+
+#footer a {
+  color: #000000;
+}
+
+#content {
+  width: 624px;
+  display: block;
+}
+
+#col3-center {
+  float: left;
+  width: 544px;
+  border: 2px double #000000;
+  background-color: #BCE27F;
+}
+
+.rect {
+  float: left;
+  width: 534px;
+  border: 2px solid #000000;
+  background-color: #BCE27F;
+  margin: 10px 38px 0px 38px;
+  text-align: center;
+  padding: 5px;
+}
+/*
+.maxwidth {
+  width: 99%;
+}
+
+.col49 {
+  width: 49%;
+  display: block;
+  float: left;
+}
+
+.tleft {
+  text-align: left;
+}
+
+.tcenter {
+  text-align: center;
+}
+
+#notice {
+  border: 1px solid red;
+  width: 100%;
+}
+*/
