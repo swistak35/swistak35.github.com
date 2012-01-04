@@ -143,6 +143,7 @@ a:hover, .proj h1:hover {
 .proj {
   text-align: left;
   margin: 5px;
+  font-size: 10pt;
 }
 
 .proj a {
