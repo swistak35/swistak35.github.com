@@ -146,7 +146,7 @@ a:hover, .proj h1:hover {
   font-size: 10pt;
 }
 
-.proj a {
+a .proj {
   color: #180021;
   text-decoration: none;
   font-weight: normal;
