@@ -172,6 +172,7 @@ em {
 
 .proj p:after {
   content: "Kliknij tutaj aby dowiedzieć się więcej";
-  font-size: 10pt;
+  font-size: 11pt;
+  font-weight: bold;
   text-align: right;
 }
