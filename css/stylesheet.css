@@ -170,10 +170,15 @@ em {
   font-weight: bold;
 }
 
-.proj p:after {
+.short p:after {
   content: "Kliknij tutaj aby dowiedzieć się więcej";
   font-size: 11pt;
   font-weight: bold;
   float: right;
   margin-top: 10px;
+}
+
+.thumb {
+  display: block;
+  padding: 10px;
 }
