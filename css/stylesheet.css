@@ -181,4 +181,5 @@ em {
 .thumb {
   display: block;
   padding: 10px;
+  float: left;
 }
