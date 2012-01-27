@@ -197,3 +197,12 @@ em {
   font-size: 9pt;
   padding-top: 20px;
 }
+
+.post h1 {
+  
+}
+
+.post h1:hover {
+  font-style: italic;
+  padding-left: 5px;
+}
