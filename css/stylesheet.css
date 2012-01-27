@@ -183,3 +183,11 @@ em {
   padding: 10px;
   float: left;
 }
+
+.post {
+  text-align: left;
+}
+
+.post .date {
+  font-style: italic;
+}
