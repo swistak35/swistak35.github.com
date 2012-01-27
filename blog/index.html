@@ -3,13 +3,28 @@ layout: default
 title: Blog
 ---
 
-{% for post in site.posts %}
-  <div class='rect'>
-    <h1>{{ post.title }}</h1>
-    <span class='date'>{{ post.date }}</span>
-    <div class='post'>
-      {{ post.content }}
-    </div>
-    <span class='tags'>{{ post.tags }}</span>
+{% assign posts = paginator.posts %}
+{% for post in posts limit: listing_limit %}
+  <div class='rect post'>
+    {% include post-content.html %}
   </div>
 {% endfor %}
+
+{% if paginator.previous_page %}
+  &laquo;&nbsp;<a href="{%if paginator.previous_page == 1 %} /blog {% else %} /page{{ paginator.previous_page }} {% endif %}" rel="next">Poprzednia</a>
+{% endif %}
+
+{% if paginator.previous_page %}
+|&nbsp;
+{% endif %}
+
+<a href="/blog">Blog</a>
+
+{% if paginator.next_page %}
+&nbsp;|
+{% endif %}
+
+
+{% if paginator.next_page %}
+  <a href="/page{{ paginator.next_page }}" rel="previous">Następna</a>&nbsp;&raquo;
+{% endif %}

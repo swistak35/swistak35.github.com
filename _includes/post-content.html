@@ -1,0 +1,11 @@
+<h1>{{ post.title }}</h1>
+<span class='date'>{{ post.date }}</span>
+<div class='post'>
+  {{ post.content }}
+</div>
+<div class='tags'>
+  Tagi: 
+  {% for tag in page.tags %}
+    <a href="/blog/tags/{{ tag }}">{{ tag }}</a>
+  {% endfor %}
+</div>
