@@ -2,14 +2,3 @@
 layout: default
 title: Home
 ---
-
-{% for post in site.posts %}
-  <div class='rect'>
-    <h1>{{ post.title }}</h1>
-    <span class='date'>{{ post.date }}</span>
-    <div class='post'>
-      {{ post.content }}
-    </div>
-    <span class='tags'>{{ post.tags }}</span>
-  </div>
-{% endfor %}
