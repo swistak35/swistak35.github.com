@@ -3,5 +3,3 @@ permalink: /blog/:year/:month/:day/:title
 disqus_short_name: bilalsyedhussain
 
 paginate: 5
-paginate_files:
-  - blog/index.html
