@@ -1,7 +1,0 @@
----
-layout: post
-title: Testowy post!
-tags: [blog]
----
-
-Testowy post, dodany na potrzeby prac nad blogiem : )

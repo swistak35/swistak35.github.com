@@ -196,13 +196,15 @@ em {
 .post .tags {
   font-size: 9pt;
   padding-top: 20px;
+  clear: both;
 }
 
 .post h1 {
   
 }
 
-.post h1:hover {
+.post h1 a:hover {
   font-style: italic;
+  font-weight: normal;
   padding-left: 5px;
 }

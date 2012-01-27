@@ -13,9 +13,9 @@ layout: default
     {{ page.content }}
   </div>
 
-  {% if screenshots > 0 %}
+  {% if page.screenshots > 0 %}
     <h3>Galeria</h3>
-    {% for i in (1..screenshots) }
+    {% for i in (1..page.screenshots) %}
       <a href="{{ i }}.png" rel="prettyPhoto[gallery]">
         <div class='thumb'>
           <img src="{{ i }}t.png">
