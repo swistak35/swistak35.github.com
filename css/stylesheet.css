@@ -190,4 +190,10 @@ em {
 
 .post .date {
   font-style: italic;
+  font-size: 9pt;
+}
+
+.post .tags {
+  font-size: 9pt;
+  padding-top: 20px;
 }
