@@ -1,11 +1,11 @@
 <h1>{{ post.title }}</h1>
-<span class='date'>{{ post.date }}</span>
+<span class='date'>{{ post.date | format_date }}</span>
 <div class='post'>
   {{ post.content }}
 </div>
 <div class='tags'>
   Tagi: 
   {% for tag in page.tags %}
-    <a href="/blog/tags/{{ tag }}">{{ tag }}</a>
+    <a href="/blog/tags/{{ tag | slugize }}">{{ tag }}</a>
   {% endfor %}
 </div>
