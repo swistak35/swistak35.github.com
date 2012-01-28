@@ -142,7 +142,6 @@ a:hover, .proj h1:hover {
 
 .proj {
   text-align: left;
-  margin: 5px;
   font-size: 10pt;
 }
 
@@ -199,8 +198,8 @@ em {
   clear: both;
 }
 
-.post h1 {
-  
+.archive {
+  text-align: left;
 }
 
 .post h1 a:hover {

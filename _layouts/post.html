@@ -2,8 +2,9 @@
 layout: default
 ---
 
+{% assign post = page %}
+
 <div class='rect post'>
-  {% assign post = page %}
   {% include post-content.html %}
   {% include post-related.html %}
   <hr>
