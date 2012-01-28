@@ -2,8 +2,8 @@
 <h1><a href='{{ post.url }}'>{{ post.title }}</a></h1>
 <div class='content'>
   {% if post.main %}
-    <a href="/blog/assets/{{ post.main }}" rel='prettyPhoto'>
-      <img src="/blog/assets/t{{ post.main }}" class='thumb' title='{{ post.title }}'>
+    <a href="/blog/assets/{{ post.main }}" title='{{ post.title }}' rel='prettyPhoto'>
+      <img src="/blog/assets/t{{ post.main }}" class='thumb'>
     </a>
   {% endif %}
   {{ post.content }}
