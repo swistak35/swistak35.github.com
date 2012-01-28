@@ -1,5 +1,5 @@
-permalink: /blog/:year/:month/:day/:title
+permalink: pretty
 
-disqus_short_name: swistak35
+disqus_short_name: swistak35shomepage
 
 paginate: 5
