@@ -2,11 +2,11 @@
 layout: default
 ---
 
-{% assign post = page %}
-
-<div class='rect post'>
-  {% include post-content.html %}
-  {% include post-related.html %}
-  <hr>
-  {% include post-comments.html %}
+<div class="post">
+  <h2 class="title"><a href="#">{{ page.title }}</a></h2>
+  <p class="meta"><span class="date">{{ page.date | date_to_long_string }}</span></p>
+  <div style="clear: both;">&nbsp;</div>
+  <div class="entry">
+    {{ page.content }}
+  </div>
 </div>

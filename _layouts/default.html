@@ -1,58 +1,104 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-  <head>
-    <title>Swistak35's homepage - {{page.title}}</title>
-    <meta content="Świstak35's homepage" name='Description' />
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Captive Green 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20111225
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Swistak35's homepage</title>
+<meta content="Świstak35's homepage" name='Description' />
     <meta content='świstak35,swistak35,swistak,świstak,website,swistakraf,homepage,świstak35 homepage' name='Keywords' />
     <meta content="Rafał 'Świstak35' Łasocha" name='Author' />
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
     <meta content='pl' http-equiv='Content-Language' />
-    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
-    <script src="/js/jquery.prettyPhoto.js" type="text/javascript"></script>
-    <script src="/js/script.js" type="text/javascript"></script>
-    <link href="/css/stylesheet.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/css/prettyPhoto.css" media="screen" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div id='wrapper'>
-      <div id='left'>
-        <div id="logo">
-        </div>
-      </div>
-      <div id='right'>
-        <div id='info'>
-          <span id='name'>Swistak35</span>
-          <div id='menu'>
-            <ul class='menu'>
-              <li>
-                <a href="/">home</a>
-              </li>
-              <li>
-                <a href="/blog">blog</a>
-              </li>
-              <li>
-                <a href="http://microblog.swistak35.com">microblog</a>
-              </li>
-              <li>
-                <a href="/projects">projects</a>
-              </li>
-              <li>
-                <a href="/links">links</a>
-              </li>
-              <li>
-                <a href="/contact">contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div id='content'>
-          {{ content }}
-        </div>
-        <div id='footer'>
-          2010-2012 ©
-          <br />
-        </div>
-      </div>
-    </div>
-  </body>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Marvel' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Marvel|Delius+Unicase' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="wrapper2">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="#">Świstak<span>35</span></a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="current_page_item"><a href="#">Blog [PL]</a></li>
+					<li><a href="#">Microblog</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="banner"></div>
+		<!-- end #header -->
+		<div id="page">
+			<div id="content">
+        {{ content }}
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+			<!-- end #content -->
+			<div id="sidebar">
+				<ul>
+          <!--
+					<li>
+						<div id="search">
+							<form method="get" action="#">
+								<div>
+									<input type="text" name="s" id="search-text" value="" />
+									<input type="submit" id="search-submit" value="GO" />
+								</div>
+							</form>
+						</div>
+						<div style="clear: both;">&nbsp;</div>
+					</li>
+          -->
+					<li>
+						<h2>Short about</h2>
+						<p>Mauris vitae nisl nec metus placerat perdiet est. Phasellus dapibus semper consectetuer hendrerit.</p>
+					</li>
+					<li>
+						<h2>...and more!</h2>
+						<ul>
+              <li><a href="#">RSS feed</a></li>
+							<li><a href="#">@swistak35 on Twitter</a></li>
+							<li><a href="#">Github</a></li>
+							<li><a href="#">Last.fm</a></li>
+							<li><a href="#">Goodreads</a></li>
+							<li><a href="#">Wykop</a></li>
+						</ul>
+					</li>
+					<li>
+						<h2>Blogroll</h2>
+						<ul>
+							<li><a href="#">Emilka Ka</a></li>
+							<li><a href="#">Elwin013</a></li>
+							<li><a href="#">Pidpawel</a></li>
+              <li><a href="#">Michno</a></li>
+							<li><a href="#">p98</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!-- end #sidebar -->
+			<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #page -->
+		<div id="footer">
+			<p>Copyright (c) 2010-2012 Swistak35.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+		</div>
+	</div>
+</div>
+<!-- end #footer -->
+</body>
 </html>
