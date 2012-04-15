@@ -5,7 +5,15 @@ title: Home
 
 {% assign post = site.posts.first %}
 
-{% include post.html %}
+<div class="post">
+  <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="meta"><span class="date">{{ post.date | date_to_long_string }}</span></p>
+  <div style="clear: both;">&nbsp;</div>
+  <div class="entry">
+    {{ post.content }}
+  </div>
+  <a class="FlattrButton" href="http://swistak35.com{{ page.url }}" title="{{ page.title }}" lang="pl" rel="flattr;tags:blog;"></a>
+</div>
 
 <h4>Poprzednie posty:</h4>
 
