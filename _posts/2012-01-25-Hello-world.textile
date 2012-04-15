@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Hello world!
-tags: [blog]
-main: 2012-01-25-Hello-world.jpg
 ---
 
 Kolejny pierwszy z kolei post. Może tym razem się uda : )
