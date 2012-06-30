@@ -7,7 +7,7 @@ layout: post
 
 h4. NaZGUL?
 
-Pomysł "NaZGULa, czyli Nieformalnej Zamojskiej Grupy Użytkowników Linuksa":http://nazgul.edu.pl pojawił się jeszcze w roku szkolnym, "elwin":http://elwin013.com wpadł na pomysł, żeby coś takiego zorganizować, kupił domeny, chwilę porozmawialiśmy i w gruncie rzeczy rozeszło się po kościach. A właściwie doszliśmy do tego, że najlepiej te spotkania zrobić na wakacjach, po maturze.
+Pomysł "NaZGULa, czyli Nieformalnej Zamojskiej Grupy Użytkowników Linuksa":http://nazgul.edu.pl/2012/06/drugie-spotkanie-podsumowanie/trackback pojawił się jeszcze w roku szkolnym, "elwin":http://elwin013.com wpadł na pomysł, żeby coś takiego zorganizować, kupił domeny, chwilę porozmawialiśmy i w gruncie rzeczy rozeszło się po kościach. A właściwie doszliśmy do tego, że najlepiej te spotkania zrobić na wakacjach, po maturze.
 
 Po maturach chodziliśmy jeszcze na zajęcia z Informatyki Śledczej (na WSZiA w Zamościu), ale przed ostatnim spotkaniem pogadaliśmy we trójkę (elwin, voodoo i ja) i uzgodniliśmy, że może udałoby się dostać salę na te parę godzin właśnie na WSZiA. Po ostatniej lekcji z Informatyki Śledczej o tym wspomnieliśmy i dowiedzieliśmy się, że nie będzie problemu z salą.
 Właściwie, to dlaczego Nazgul? Ano dlatego, że kiedyś kiedyś w Zamościu już istniała grupa użytkowników linuksa i tak się właśnie nazywała. Co prawda ślad o niej pozostał tylko w cache googla, ale zawsze coś : )

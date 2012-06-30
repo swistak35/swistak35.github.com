@@ -1,0 +1,22 @@
+---
+layout: post
+title: Redmine - podstawa pracy grupowej
+---
+
+Z Redmine miałem (a właściwie mam) przyjemność korzystać dwa razy.
+
+Raz, przy reaktywacji JakiLinux.org, jednak tam nie zagościłem długo i w gruncie rzeczy nie obserwowałem jak ten cały system działa.
+
+Po raz drugi zetknąłem się podczas pracy grupowej przy okazji pisania aplikacji w rails. Miało to służyć jako zwykły issue tracker pomiędzy członkami grupy (programista, front-end developer, admini). Zaraz jednak redmine został wykorzystywany po prostu jako środek komunikacji - irc odchodzi w odstawkę, zostaje redmine. Są tam prowadzone dyskusje na tematy związane z całym projektem.
+
+Co w nim takiego szczególnego, że aż chce się przy tym pracować?
+Wiele opcji i plug-inów.
+Poza tradycyjnymi opcjami issue trackera, narzędzia znanego choćby z Githuba - mamy możliwość w komentarzu dodania czasu, jaki spędziliśmy na dane zagadnienie, podzielić projekt na różne gałęzie i wiele innych opcji - żeby się przekonać, trzeba wypróbować.
+
+Oprócz dodatkowych opcji przy dodawaniu issues, możemy uczynić z redmine swego rodzaju "kombajn". Jest opcja podłączenia repozytorium, które jest wyświetlane w formie ładnego drzewa, możemy przeglądać wszystkie commity oraz zmiany, jakie w nich nastąpiły. Ponadto możemy edytować wiki do projektu, a także dodawać pliki. Wbrew pozorom, mimo korzystania z gita - możliwość dodawania plików to świetna opcja. To świetne miejsce aby dodać tam np. specyfikacje techniczne konkretnych narzędzi, które nie są powszechnie dostępne.
+
+Czego mi brakuje w redmine?
+Funkcjonalności Campfire. To narzędzie, które uważam za świetny dodatek do pracy grupowej.
+W uproszczeniu jest to czat czasu rzeczywistego, z możliwością podziału na pokoje etc.
+Niestety opcja darmowa pozwala na rozmowę maksymalnie pomiędzy 4 zarejestrowanymi użytkownikami.
+Cóż, w końcu znajdę jakąś dobrą alternatywę : )
