@@ -415,3 +415,8 @@ a:hover {
 	margin: 0px auto;
 	height: 150px;
 }
+
+.first_post {
+	font-weight: bold;
+	font-size: 12pt;
+}
