@@ -1,0 +1,40 @@
+---
+layout: post
+title: Postgres - konfiguracja na linuksie
+---
+
+h4. Problem
+
+Jeśli chcesz skonfigurować pod swój użytek postgresql, ale występuje u Ciebie błąd:
+*@FATAL:  role "xxx" does not exist@*
+lub
+*@FATAL:  password authentication failed for user "postgres"@*
+to przeczytaj dalej - jest wyjaśnienie, jak skonfigurować użytkownika postgres.
+
+Zakładam, że Twój system to linuks - rozwiązanie testowane na Ubuntu 12.04 i Debianie : )
+
+h4. Rozwiązanie
+
+Po pierwsze musimy się zalogować na użytkownika postgres:
+*@$ su - postgres@*
+Hasło powinno być domyślne: *postgres* (lub ew. powinno być puste).
+
+Potem włączamy konsolę psql:
+*@$ psql@*
+
+Następnie zmieniamy hasło na "postgres" - oczywiście może być też jakieś inne, dowolnie przez siebie wybrane.
+*@postgres=# ALTER USER postgres WITH PASSWORD 'postgres';@*
+
+p{color: red}. *Ważne, żeby był średnik na końcu, bo polecenie nie zwróci żadnego błędu i łatwo to przeoczyć.*
+
+Aby wyjść z psql, wpisujemy *\q*.
+
+I to właściwie wystarczy. Rozwiązanie jest dedykowane railsom, więc jeśli mamy już nasz nowy projekt oparty na bazie postgresql, to musimy w *config/database.yml* zmienić wartości pól *username* i *password* na *postgresql* oraz dopisać do wszystkich trybów (productin, development, test) dwie wartości:
+*@hostname: localhost@*
+*@port: 5432@*
+
+Potem można jeszcze profilaktycznie (nie wiem, czy jest to wymagane) zrestartować serwer postgresa:
+*@sudo /etc/init.d/postgresql restart@*
+
+
+
