@@ -420,3 +420,7 @@ a:hover {
 	font-weight: bold;
 	font-size: 12pt;
 }
+
+.red {
+	color: red;
+}
