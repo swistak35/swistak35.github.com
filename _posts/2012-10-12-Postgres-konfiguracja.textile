@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [PL] Postgres - konfiguracja na linuksie
+title: Postgres - konfiguracja na linuksie [PL]
 ---
 
 h4. Problem
