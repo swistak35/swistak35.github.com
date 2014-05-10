@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dwa spotkania NaZGULa za nami
+title: [PL] Dwa spotkania NaZGULa za nami
 ---
 
 !/assets/2012-06-27-nazgul-logo.jpg!

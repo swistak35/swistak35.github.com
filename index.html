@@ -3,11 +3,11 @@ layout: default
 title: Home
 ---
 
-<h3 class='title'>[Polish only] Blog posts:</h3>
+<h3 class='title'>Blog posts:</h3>
 <br>
 <ul>
   {% assign post = site.posts.first %}
-  <li class='first_post'><a href='{{ post.url }}'>[{{ post.date | date_to_string }}]: {{ post.title }} [najnowszy post]</a></li>
+  <li class='first_post'><a href='{{ post.url }}'>[{{ post.date | date_to_string }}]: {{ post.title }}</a></li>
 
   {% for post in site.posts offset: 1 %}
     <li><a href='{{ post.url }}'>[{{ post.date | date_to_string }}]: {{ post.title }}</a></li>

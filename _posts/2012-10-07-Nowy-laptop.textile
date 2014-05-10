@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nowy laptop
+title: [PL] Nowy laptop
 ---
 
 !/assets/2012-10-07-laptop.jpg!

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello world!
+title: [PL] Hello world!
 ---
 
 Kolejny pierwszy z kolei post. Może tym razem się uda : )
