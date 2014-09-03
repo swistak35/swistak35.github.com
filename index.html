@@ -3,15 +3,16 @@ layout: default
 title: Home
 ---
 
-<h3 class='title'>Blog posts:</h3>
-<br>
-<ul>
-  {% assign post = site.posts.first %}
-  <li class='first_post'><a href='{{ post.url }}'>[{{ post.date | date_to_string }}]: {{ post.title }}</a></li>
-
-  {% for post in site.posts offset: 1 %}
-    <li><a href='{{ post.url }}'>[{{ post.date | date_to_string }}]: {{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+<div class="post">
+  <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="meta"><span class="date">{{ post.date | date_to_long_string }}</span></p>
+  <!-- <div style="clear: both;">&nbsp;</div> -->
+  <div class="entry">
+    {{ post.excerpt | textilize }}
+  </div>
+  <a class="continue" href="{{ post.url }}">continue reading →</a>
+</div>
+{% endfor %}
 
 
