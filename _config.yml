@@ -1,5 +1,51 @@
-permalink: pretty
-
 disqus_short_name: swistak35shomepage
 
-paginate: 5
+# Base URL
+baseurl: ''
+
+# Site live URL
+# url: http://swistak35.com/
+
+# Localhost 
+# url: http://192.168.0.102:4000
+
+# Harmony theme configuration. Please change accordingly.
+harmony:
+  name: Swistak35's blog
+  description: 
+  meta_description: I don't have description yet
+  basetheme: theme-base-01 
+  author: 
+    name: Gayan Virajith
+    email: gayanvirajith@gmail.com
+    url: http://gayanvirajith.github.io
+
+  google_analytics_key: UA-xxxx-x
+
+  social: 
+    github: swistak35
+    twitter: swistak35
+    facebook: swistak35
+    gplus: 
+    dribble: 
+    pinterest: 
+  show_disclaimer: true
+
+markdown:    kramdown
+highlighter: pygments # this is how you put pygments config in jekyll 2.0 instead of pygments: true
+
+permalink:        pretty
+
+exclude: 
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
+
+# Sass conversion configs
+sass:
+    sass_dir: assets/css/_sass
+    style: :compressed
