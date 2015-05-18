@@ -108,5 +108,3 @@ autoload -U add-zsh-hook
 add-zsh-hook preexec switch_term_colors
 
 {% endhighlight %}
-
-I hope it'll work for you too.
