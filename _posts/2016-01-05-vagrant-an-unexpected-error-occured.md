@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Vagrant: An unexpected error occurred while loading the vagrant-login plugin. Please contact support with the following error code: '7'.
-description: Solution for this specific problem with Vagrant
+description: **TL;DR** If you've encountered this error in Vagrant, reinstall all your plugins.
 ---
+
+**TL;DR** If you've encountered this error in Vagrant, reinstall all your plugins.
 
 Today after updating my Arch Linux (which I wasn't doing for a long time) I had a problem with vagrant. After trying to `vagrant up` my machine I got following output:
 
@@ -18,7 +20,6 @@ shown below.
 exit
 ```
 
-**TL;DR** If you've encountered this error in Vagrant, reinstall all your plugins.
 
 I didn't found solution for this particular problem, but for similar problems,
 I've found recommendations to reinstall the plugins.
