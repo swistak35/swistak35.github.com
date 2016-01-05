@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vagrant - An unexpected error occurred while loading the vagrant-login plugin
+title: Vagrant - An unexpected error occurred while loading the vagrant-login plugin. Please contact support with the following error code: '7'.
 description: "TL;DR: If you've encountered this error in Vagrant, reinstall all your plugins."
 ---
 
