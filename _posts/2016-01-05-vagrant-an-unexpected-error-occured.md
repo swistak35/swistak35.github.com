@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vagrant - An unexpected error occurred
+title: Vagrant - An unexpected error occurred while loading the vagrant-login plugin
 description: TLDR If you've encountered this error in Vagrant, reinstall all your plugins.
 ---
 
