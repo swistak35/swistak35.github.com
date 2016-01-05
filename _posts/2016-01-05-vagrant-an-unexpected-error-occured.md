@@ -8,7 +8,7 @@ description: **TL;DR** If you've encountered this error in Vagrant, reinstall al
 
 Today after updating my Arch Linux (which I wasn't doing for a long time) I had a problem with vagrant. After trying to `vagrant up` my machine I got following output:
 
-```
+{% highlight bash %}
 An unexpected error occurred while loading the vagrant-login
 plugin. Please contact support with the following
 error code: '7'.
@@ -18,7 +18,7 @@ The plugins failed to load properly. The error message given is
 shown below.
 
 exit
-```
+{% endhighlight %}
 
 
 I didn't found solution for this particular problem, but for similar problems,
