@@ -32,7 +32,7 @@ harmony:
   show_disclaimer: true
 
 markdown:    kramdown
-highlighter: pygments # this is how you put pygments config in jekyll 2.0 instead of pygments: true
+highlighter: rouge # this is how you put pygments config in jekyll 2.0 instead of pygments: true
 
 permalink:        pretty
 
