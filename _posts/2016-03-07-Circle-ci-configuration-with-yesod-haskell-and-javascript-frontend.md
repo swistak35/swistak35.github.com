@@ -2,6 +2,7 @@
 layout: post
 title: Circle CI configuration with yesod (haskell) backend and javascript frontend
 excerpt_separator: <!--more-->
+tags: ['dsp2016']
 ---
 
 For ["Daj się poznać" contest](http://www.maciejaniserowicz.com/daj-sie-poznac/) I've decided to [make a tool](https://github.com/swistak35/symmetrical-chainsaw) which is close to pinboard and pinterest, but with features I was missing. When [I've chosen frameworks which I'll gonna use](https://twitter.com/andrzejkrzywda/status/645903406742245376), and both of them came with some default tests, I've decided to setup continuous integration using CircleCI. This post describes how to setup CircleCI for repository with two apps inside (so automatic CircleCI language recognition doesn't work) and one of them is haskell, which is not very popular and there aren't too much resources how to do it.
