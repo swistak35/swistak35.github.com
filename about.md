@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-Hi. I am Rafał Łasocha, and I am Ruby developer at [Arkency][arkency].
+Hi. I am Rafał Łasocha, and I am Ruby developer at [Arkency](http://arkency.com/).
 Currently, I am also still a student on University of Wrocław.
 
 You can find me in the internet, mostly my nickname is 'swistak35'.
