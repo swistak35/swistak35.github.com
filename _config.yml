@@ -1,40 +1,9 @@
 disqus_short_name: swistak35shomepage
 
-# Base URL
 baseurl: ''
-
-# Site live URL
-# url: http://swistak35.com/
-
-# Localhost 
-# url: http://192.168.0.102:4000
-
-# Harmony theme configuration. Please change accordingly.
-harmony:
-  name: Swistak35's blog
-  description: 
-  meta_description: I don't have description yet
-  basetheme: theme-base-01 
-  author: 
-    name: Gayan Virajith
-    email: gayanvirajith@gmail.com
-    url: http://gayanvirajith.github.io
-
-  google_analytics_key: UA-xxxx-x
-
-  social: 
-    github: swistak35
-    twitter: swistak35
-    facebook: swistak35
-    gplus: 
-    dribble: 
-    pinterest: 
-  show_disclaimer: true
-
-markdown:    kramdown
 highlighter: rouge # this is how you put pygments config in jekyll 2.0 instead of pygments: true
 
-permalink:        pretty
+permalink: pretty
 
 exclude: 
   - CNAME
@@ -45,7 +14,41 @@ exclude:
   - .sass-cache
   - Gemfile.lock
 
-# Sass conversion configs
-sass:
-    sass_dir: assets/css/_sass
-    style: :compressed
+# Monochrome config
+title: Monochrome | A minimal, responsive Jekyll blog theme
+description: "A minimal, responsive, ready to use blog template, built with Jekyll."
+url: "http://www.dyutibarma.github.io/monochrome"
+author:
+  name: "The Review Index"
+  email: "dyutibarma@gmail.com"
+  url: "https://thereviewindex.com"
+
+# Build settings
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+    # Custom variables
+version: "1.0.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
