@@ -16,7 +16,7 @@ exclude:
 
 # Monochrome config
 title: Rafał Łasocha
-description: "A minimal, responsive, ready to use blog template, built with Jekyll."
+description: ""
 
 # Build settings
 markdown: kramdown
