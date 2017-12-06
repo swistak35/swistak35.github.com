@@ -15,13 +15,8 @@ exclude:
   - Gemfile.lock
 
 # Monochrome config
-title: Monochrome | A minimal, responsive Jekyll blog theme
+title: Rafał Łasocha
 description: "A minimal, responsive, ready to use blog template, built with Jekyll."
-url: "http://www.dyutibarma.github.io/monochrome"
-author:
-  name: "The Review Index"
-  email: "dyutibarma@gmail.com"
-  url: "https://thereviewindex.com"
 
 # Build settings
 markdown: kramdown
