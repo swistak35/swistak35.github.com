@@ -1,3 +1,24 @@
 /*- Custom style -*/
 
 // -- Put custom style under this point -- //
+
+@font-face {
+  font-family: BonaNova;
+  src: url(/fonts/BonaNova-Regular.otf);
+}
+
+@font-face {
+  font-family: BonaNova;
+  src: url(/fonts/BonaNova-Italic.otf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: BonaNova;
+  src: url(/fonts/BonaNova-Bold.otf);
+  font-weight: bold;
+}
+
+body {
+  font-family: BonaNova;
+}
