@@ -23,8 +23,6 @@ body {
   font-family: BonaNova;
 }
 
-#nav-links a {
-  &:hover {
-    text-decoration: underline;
-  }
+a:hover {
+  text-decoration: underline;
 }
