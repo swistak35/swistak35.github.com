@@ -1,17 +1,25 @@
 ---
-layout: default
+layout: page
+title: About me
 ---
-<!-- Posts -->
-<ul id="posts">
 
-	{% for post in paginator.posts %}
+<p>
+  Hi. I am Rafał Łasocha, and I am Ruby developer at <a href="https://arkency.com">Arkency</a>. Currently, I am also a student on University of Wrocław.
+</p>
 
-	  <li class="post">
-	  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{%if post.header %}{{ post.header }}{% else %}{{ post.title }}{% endif %}</a></h2>
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line"> <i>{{ post.date | date_to_string }}</i> </time>
-	  	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
-	  </li>
+<p>
+  You can find me in the internet, mostly my nickname is 'swistak35'.
+  Few ways to contact me are also listed below
+</p>
 
-    {% endfor %}
+<p>
+  E-mail:  me // swistak35.com
+</p>
 
-</ul>
+<p>
+  Jabber/XMPP: swistak35@jabbim.pl
+</p>
+
+<p>
+  Skype: swistak_35
+</p>
