@@ -8,7 +8,7 @@ One of my colleagues some time ago stated a problem - **can we automatically cha
 
 My answer would be: **Yes, but... I have zsh and Konsole (KDE default terminal). My solution depends on both, but I'm pretty sure it could be done also on bash or other shells (fish anyone?). However, I have no clue about other terminal emulators than Konsole. I also use Yakuake terminal emulator, which use the same engine as Konsole. Thus, my solution works for Yakuake too.**
 
-## konsoleprofile command
+### konsoleprofile command
 
 The first thing is to find themes which we would like to use. In Konsole, we have built-in about a dozen of themes, including Solarized and Solarized Light. I will pick these two - Solarized for night and Solarized Light for day colorscheme.
 
@@ -51,7 +51,7 @@ function switch_term_colors() {
 }
 {% endhighlight %}
 
-## zsh hooks
+### zsh hooks
 
 Now, how to use this function to change colorschemes automatically? ZSH have concept called "hooks".
 **For example, we can make a "preexec" hook, which will make zsh run some function every time you type a command.** It's "automated enough" for me.
@@ -65,7 +65,7 @@ add-zsh-hook preexec switch_term_colors
 
 And it should be working now!
 
-## tmux
+### tmux
 
 There's one more quirk if you're using tmux. Does it interest you how this `konsoleprofile` communicates with your current terminal?
 As far as I have found konsole intercepts commands called in shell and if it's calling konsoleprofile it call some specific code.

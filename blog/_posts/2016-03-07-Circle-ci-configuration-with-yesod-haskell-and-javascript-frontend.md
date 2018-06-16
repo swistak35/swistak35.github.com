@@ -9,7 +9,7 @@ For ["Daj się poznać" contest](http://www.maciejaniserowicz.com/daj-sie-poznac
 
 <!--more-->
 
-## Javascript frontend
+### Javascript frontend
 
 That part was easy. Asuumption is that your javascript application is located in `frontend` directory and the tests are run by running `npm run test` command.
 
@@ -37,7 +37,7 @@ dependencies:
     - "frontend/node_modules"
 {% endhighlight %}
 
-## Haskell backend
+### Haskell backend
 
 That part is more tricky.
 
@@ -79,7 +79,7 @@ test:
 
 After that change, it almost works.
 
-## Yesod ignoreEnv vs useEnv
+### Yesod ignoreEnv vs useEnv
 
 When you firstly use yesod, it has `config/settings.yml` file which keeps [information about database](https://github.com/swistak35/symmetrical-chainsaw/blob/443969ab82eba0f6146c99dbe5511e1205abd436/backend/config/settings.yml#L26-L32):
 
@@ -120,7 +120,7 @@ settings <- loadAppSettings
 
 You can also check [relevant commmit](https://github.com/swistak35/symmetrical-chainsaw/commit/56fc35c96663bfbb43bd94806d97b837f31938b7#diff-a0bcd3030b500becb7a7408f9cd5aab6) in Symmetrical Chainsaw project.
 
-## Final config
+### Final config
 
 Finally I've end up with following `circle.yml`:
 

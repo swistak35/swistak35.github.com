@@ -4,3 +4,19 @@
 
 //Import
 @import "base", "mixin", "typography", "layout", "syntax.scss", "custom.scss";
+
+#header {
+  margin-bottom: 1em;
+}
+
+.contact-list {
+  list-style-type: none;
+}
+
+.contact-info {
+  margin-bottom: 0.1em;
+}
+
+figure.highlight {
+  font-size: 0.8em;
+}
