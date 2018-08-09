@@ -20,3 +20,28 @@
 figure.highlight {
   font-size: 0.8em;
 }
+
+.projects {
+  margin: 2em;
+  display: grid;
+  grid-template-columns: 128px auto;
+  grid-column-gap: 100px;
+
+  .project-logo {
+    margin-top: 1em;
+    img {
+      margin-bottom: 0px;
+    }
+  }
+
+  .project-desc {
+    position: relative;
+
+    .mainlink {
+      font-size: 1.2em;
+      position:absolute;
+      bottom:0;
+      right:0;
+    }
+  }
+}
