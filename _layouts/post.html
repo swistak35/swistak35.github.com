@@ -3,7 +3,13 @@ layout: default
 ---
 <article id="post-page">
     <h2>{%if page.header %}{{ page.header }}{% else %}{{ page.title }}{% endif %}</h2>		
-    <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
+    <span class="by-line">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+        {%if page.originally_posted %}
+            <br/>
+            <a style='font-weight: 200; color: #737373; text-decoration: underline' href="{{ page.originally_posted }}">This post was originally posted here.</a>
+        {%endif%}
+    </span>
     <div class="content">
         {{ content }}
     </div>
