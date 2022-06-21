@@ -9,6 +9,16 @@
     <lastBuildDate>Thu, 19 May 2022 00:44:30 +0000</lastBuildDate>
     <generator>Jekyll v3.9.2</generator>
     
+    <item>
+        <title>new item title</title>
+        <description>new item description</description>
+        <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
+        <link>https://rafal.lasocha.net/blog/always-set-explicit-timeouts</link>
+        <guid isPermaLink="true">https://rafal.lasocha.net/blog/always-set-explicit-timeouts</guid>
+        <category>silverfin</category>
+        <category>blog</category>
+      </item>
+    
       <item>
         <title>Always set explicit timeouts</title>
         <description>&lt;p&gt;Our next ticket is to implement another integration with 3rd party HTTP API. As it’s in life, the documentation is imprecise, provided examples are outdated, and nobody is responding to our e-mails. It’s not the first one though, so after some time we do have it ready. Either it is MVP, or maybe even we are confident enough to say that this integration between our app and 3rd party “works correctly” (whatever that means, in presence of the API of which the code one cannot see).&lt;/p&gt;
