@@ -12,7 +12,7 @@
     <item>
         <title>new item title</title>
         <description>new item description</description>
-        <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 08 Jan 2022 00:00:00 +0000</pubDate>
         <link>https://rafal.lasocha.net/blog/always-set-explicit-timeouts</link>
         <guid isPermaLink="true">https://rafal.lasocha.net/blog/always-set-explicit-timeouts</guid>
         <category>silverfin</category>
