@@ -4,7 +4,7 @@
     <title>Rafał Łasocha</title>
     <description></description>
     <link>https://rafal.lasocha.net/</link>
-    <atom:link href="https://rafal.lasocha.net/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rafal.lasocha.net/feed2.xml" rel="self" type="application/rss+xml" />
     <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
     <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate>
     <generator>Jekyll v3.9.2</generator>
